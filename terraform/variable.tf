@@ -97,10 +97,3 @@ variable "alert_email" {
   description = "Email address to receive CloudWatch CPU/Memory alarm alerts via SNS"
   default     = ""
 }
-
-# GitHub OIDC
-variable "github_repo" {
-  type        = string
-  description = "GitHub repository in the format owner/repository for OIDC role trust policy"
-  default     = "pratikgayakwad07/todo-app-assessment"
-}

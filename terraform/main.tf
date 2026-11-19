@@ -90,11 +90,3 @@ module "monitoring" {
   backend_service_name  = module.ecs.backend_service_name
   alert_email           = var.alert_email
 }
-
-# 8. GitHub Actions OIDC Authentication Role Module
-module "oidc" {
-  source = "./modules/oidc"
-
-  project_name = var.project_name
-  github_repo  = var.github_repo
-}

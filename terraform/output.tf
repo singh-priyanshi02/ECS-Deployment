@@ -68,9 +68,3 @@ output "sns_alert_topic_arn" {
   description = "SNS Topic ARN for CloudWatch alerts"
   value       = module.monitoring.sns_topic_arn
 }
-
-# GitHub OIDC Output
-output "github_actions_role_arn" {
-  description = "IAM Role ARN configured for GitHub Actions OIDC"
-  value       = module.oidc.github_actions_role_arn
-}

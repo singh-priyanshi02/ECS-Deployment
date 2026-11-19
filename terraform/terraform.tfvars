@@ -1,4 +1,4 @@
-aws_region  = "us-east-1"
+aws_region  = "ap-southeast-2"
 environment = "dev"
 project_name = "todo-app"
 
@@ -32,7 +32,4 @@ frontend_desired_count = 2
 backend_desired_count  = 2
 
 # Monitoring Alerts (Optional: Set your alert email)
-alert_email = "pratikgayakwad322@gmail.com"
-
-# GitHub OIDC repo trust (Format: github_username/repo_name)
-github_repo = "pratikgayakwad07/todo-app-assessment"
+alert_email = "singh.priyanshisingh002@gmail.com"
